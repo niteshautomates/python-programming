@@ -1,0 +1,56 @@
+{
+    "company": {
+      "name": "Tech Solutions Inc.",
+      "location": "Silicon Valley, CA",
+      "departments": [
+        {
+          "name": "Engineering",
+          "head": "Alice Smith",
+          "employees": [
+            {
+              "id": "EMP001",
+              "firstName": "John",
+              "lastName": "Doe",
+              "position": "Software Engineer",
+              "skills": ["Python", "Java", "SQL"],
+              "projects": [
+                {"name": "Project Alpha", "status": "Completed"},
+                {"name": "Project Beta", "status": "In Progress"}
+              ]
+            },
+            {
+              "id": "EMP002",
+              "firstName": "Jane",
+              "lastName": "Miller",
+              "position": "Senior Developer",
+              "skills": ["JavaScript", "React", "Node.js"],
+              "projects": [
+                {"name": "Project Gamma", "status": "In Progress"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Marketing",
+          "head": "Bob Johnson",
+          "employees": [
+            {
+              "id": "EMP003",
+              "firstName": "Sarah",
+              "lastName": "Davis",
+              "position": "Marketing Specialist",
+              "skills": ["SEO", "Content Creation"],
+              "campaigns": [
+                {"name": "Summer Sale", "budget": 10000},
+                {"name": "Holiday Campaign", "budget": 15000}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "lastUpdated": "2025-09-14T01:30:00Z",
+      "version": "1.0"
+    }
+  }
